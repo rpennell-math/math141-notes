@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MATH 141 Lecture Notes · Mathematics for Elementary Teachers</title>
+<meta name="description" content="Lecture notes for MATH 141 at Ivy Tech Bloomington, organized to follow Bassarear &amp; Moss, Mathematics for Elementary School Teachers, 7th edition.">
+<style>
+  :root { --ink:#1d2433; --muted:#5b6475; --line:#e3e6ec; --bg:#fafbfc; --accent:#006648; --card:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: Georgia, "Times New Roman", serif; color:var(--ink); background:var(--bg); line-height:1.5; }
+  header { background:#006648; color:#fff; padding:3rem 1.25rem 2.5rem; }
+  .wrap { max-width:880px; margin:0 auto; }
+  header .course { font-family: system-ui, sans-serif; letter-spacing:.08em; text-transform:uppercase; font-size:.85rem; opacity:.8; margin:0; }
+  header .back a { color:#fff; text-decoration:none; opacity:.85; }
+  header h1 { font-size:2.4rem; margin:.3rem 0 .6rem; font-weight:normal; }
+  header p { margin:.2rem 0; opacity:.9; }
+  .btns { margin-top:1.5rem; display:flex; gap:.75rem; flex-wrap:wrap; }
+  .btn { font-family: system-ui, sans-serif; display:inline-block; padding:.65rem 1.1rem; border-radius:6px; text-decoration:none; font-weight:600; font-size:.95rem; }
+  .btn.primary { background:#fff; color:#006648; }
+  .btn.ghost { border:1px solid rgba(255,255,255,.6); color:#fff; }
+  main { padding:2rem 1.25rem 3rem; }
+  .guide { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:1rem 1.25rem; margin-bottom:2rem; font-size:.97rem; }
+  .guide h2 { font-size:1.05rem; margin:0 0 .4rem; }
+  .chapter { background:var(--card); border:1px solid var(--line); border-radius:8px; margin-bottom:1.25rem; overflow:hidden; }
+  .chapter h2 { margin:0; font-size:1.25rem; font-weight:normal; border-bottom:1px solid var(--line); }
+  .chapter h2 a { display:block; padding:.9rem 1.25rem; color:var(--ink); text-decoration:none; }
+  .chapter h2 a:hover { background:#eef6f2; }
+  .cl { font-family:system-ui,sans-serif; font-size:.78rem; text-transform:uppercase; letter-spacing:.07em; color:var(--accent); display:block; }
+  ol { list-style:none; margin:0; padding:.35rem 0; }
+  li { padding-bottom:.35rem; }
+  a.row { display:flex; gap:.9rem; padding:.45rem 1.25rem .2rem; text-decoration:none; color:var(--ink); }
+  a.row:hover .st { color:var(--accent); text-decoration:underline; }
+  .sn { font-family:system-ui,sans-serif; font-variant-numeric:tabular-nums; color:var(--muted); min-width:2.4rem; font-size:.92rem; padding-top:.08rem; }
+  .st { flex:1; }
+  .pg { font-family:system-ui,sans-serif; color:var(--muted); font-size:.8rem; white-space:nowrap; padding-top:.15rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:.3rem .35rem; padding:0 1.25rem 0 4.55rem; }
+  .chips a { font-family:system-ui,sans-serif; font-size:.78rem; color:var(--accent); background:#e3f1ea; border-radius:999px; padding:.1rem .55rem; text-decoration:none; }
+  .chips a:hover { background:#cfe7da; }
+  .reviews { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; margin-bottom:2rem; }
+  .review { background:var(--card); border:1px solid var(--line); border-left:4px solid #006648; border-radius:8px; padding:1rem 1.25rem; text-decoration:none; color:var(--ink); display:block; }
+  .review:hover { background:#eef6f2; }
+  .review strong { font-size:1.15rem; font-weight:normal; display:block; }
+  .review span.d { color:var(--muted); font-size:.92rem; }
+  .sechead { font-family:system-ui,sans-serif; font-size:.85rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin:0 0 .6rem; font-weight:600; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; padding:0 1rem 2.5rem; font-family:system-ui,sans-serif; }
+  @media (max-width:560px) { header h1 { font-size:1.8rem; } .pg { display:none; } .chips { padding-left:1.25rem; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="course back"><a href="https://rpennell-math.github.io/">&larr; All courses</a></p>
+    <p class="course">MATH 141 · Ivy Tech Community College · Bloomington</p>
+    <h1>Mathematics for Elementary Teachers</h1>
+    <p>Lecture notes for Chapters 1&ndash;6, organized to follow Bassarear &amp; Moss, <em>Mathematics for Elementary School Teachers</em>, 7th edition</p>
+    <p>Prepared by Ryan Pennell</p>
+    <div class="btns">
+      <a class="btn primary" href="MATH141-Lecture-Notes.pdf">Open the full notes (PDF)</a>
+      <a class="btn ghost" href="MATH141-Lecture-Notes.pdf" download>Download PDF</a>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <h2 class="sechead">Exam review</h2>
+  <div class="reviews">
+    <a class="review" href="MATH141-Midterm-Study-Guide.pdf"><span class="cl">Number systems, number theory, fractions</span><strong>Midterm Study Guide</strong><span class="d">Key ideas, worked examples, and a practice midterm (PDF)</span></a>
+  </div>
+  <h2 class="sechead">Lecture notes by section</h2>
+  <div class="guide">
+    <h2>How to use these notes</h2>
+    The notes collect the definitions, theorems, and algorithms from each section of the textbook. Click a section title to jump to it in the PDF, or click one of the smaller topic links underneath to go straight to that topic. The first pages of the PDF (<a href="MATH141-Lecture-Notes.pdf#page=2" style="color:var(--accent)">How to Use These Notes</a>) explain how everything is laid out.
+  </div>
+      <section class="chapter">
+        <h2><a href="MATH141-Lecture-Notes.pdf#page=7"><span class="cl">Chapter 1</span> Foundations for Learning Mathematics</a></h2>
+        <ol>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=7"><span class="sn">1.1</span><span class="st">What Is Mathematics?</span><span class="pg">p.&nbsp;7</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=7">Problem Solving</a><a href="MATH141-Lecture-Notes.pdf#page=8">Making a Drawing</a><a href="MATH141-Lecture-Notes.pdf#page=8">Guessing and Checking</a><a href="MATH141-Lecture-Notes.pdf#page=8">Making a Table</a><a href="MATH141-Lecture-Notes.pdf#page=8">Using a Model</a><a href="MATH141-Lecture-Notes.pdf#page=8">Working Backward</a><a href="MATH141-Lecture-Notes.pdf#page=9">Inductive Reasoning</a><a href="MATH141-Lecture-Notes.pdf#page=9">Solving a Simpler Problem</a><a href="MATH141-Lecture-Notes.pdf#page=9">Deductive Reasoning and Logic</a><a href="MATH141-Lecture-Notes.pdf#page=9">Venn Diagrams</a><a href="MATH141-Lecture-Notes.pdf#page=10">Conditional Statements</a><a href="MATH141-Lecture-Notes.pdf#page=11">Reasoning with Conditional Statements</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=11"><span class="sn">1.2</span><span class="st">Sets</span><span class="pg">p.&nbsp;11</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=11">Sets and Their Elements</a><a href="MATH141-Lecture-Notes.pdf#page=12">Relationships between Sets</a><a href="MATH141-Lecture-Notes.pdf#page=13">Operations on Sets</a></div></li>
+        </ol>
+      </section>
+      <section class="chapter">
+        <h2><a href="MATH141-Lecture-Notes.pdf#page=14"><span class="cl">Chapter 2</span> The Number System</a></h2>
+        <ol>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=14"><span class="sn">2.1</span><span class="st">Whole Numbers</span><span class="pg">p.&nbsp;14</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=14">Grouping and Number Bases</a><a href="MATH141-Lecture-Notes.pdf#page=15">Ancient Numeration Systems</a><a href="MATH141-Lecture-Notes.pdf#page=15">Reading and Writing Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=15">Rounding Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=16">Models for Numeration</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=16"><span class="sn">2.2</span><span class="st">Fractions</span><span class="pg">p.&nbsp;16</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=16">Fraction Terminology</a><a href="MATH141-Lecture-Notes.pdf#page=16">Fraction Concepts</a><a href="MATH141-Lecture-Notes.pdf#page=16">Greatest Common Factor</a><a href="MATH141-Lecture-Notes.pdf#page=17">Equality of Fractions</a><a href="MATH141-Lecture-Notes.pdf#page=18">Least Common Multiple</a><a href="MATH141-Lecture-Notes.pdf#page=18">Common Denominators</a><a href="MATH141-Lecture-Notes.pdf#page=19">Density of Fractions</a><a href="MATH141-Lecture-Notes.pdf#page=19">Mixed Numbers and Improper Fractions</a><a href="MATH141-Lecture-Notes.pdf#page=19">Mental Calculations</a><a href="MATH141-Lecture-Notes.pdf#page=19">Estimation</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=20"><span class="sn">2.3</span><span class="st">Decimals, Integers, and Real Numbers</span><span class="pg">p.&nbsp;20</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=20">Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=20">Models for Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=20">Equality of Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=21">Inequality of Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=21">Rational Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=21">Density of Rational Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=22">Estimation</a><a href="MATH141-Lecture-Notes.pdf#page=22">Repeating Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=22">Integers</a><a href="MATH141-Lecture-Notes.pdf#page=23">Uses of Integers</a><a href="MATH141-Lecture-Notes.pdf#page=23">Models for Integers</a><a href="MATH141-Lecture-Notes.pdf#page=23">Order of the Integers</a><a href="MATH141-Lecture-Notes.pdf#page=24">Irrational and Real Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=24">Square Roots and Other Roots</a><a href="MATH141-Lecture-Notes.pdf#page=25">Real Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=25">Properties of Real Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=26">Operations with Irrational Numbers</a></div></li>
+        </ol>
+      </section>
+      <section class="chapter">
+        <h2><a href="MATH141-Lecture-Notes.pdf#page=27"><span class="cl">Chapter 3</span> Understanding Addition and Subtraction</a></h2>
+        <ol>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=27"><span class="sn">3.1</span><span class="st">Understanding Addition of Whole Numbers</span><span class="pg">p.&nbsp;27</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=27">Models for Addition Algorithms</a><a href="MATH141-Lecture-Notes.pdf#page=28">Number Properties</a><a href="MATH141-Lecture-Notes.pdf#page=28">Inequality of Whole Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=29">Mental Calculations</a><a href="MATH141-Lecture-Notes.pdf#page=29">Estimation of Sums</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=29"><span class="sn">3.2</span><span class="st">Understanding Subtraction of Whole Numbers</span><span class="pg">p.&nbsp;29</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=29">Models for Subtraction Algorithms</a><a href="MATH141-Lecture-Notes.pdf#page=30">Mental Calculations</a><a href="MATH141-Lecture-Notes.pdf#page=30">Estimation of Differences</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=30"><span class="sn">3.3</span><span class="st">Understanding Addition and Subtraction of Fractions</span><span class="pg">p.&nbsp;30</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=30">Addition</a><a href="MATH141-Lecture-Notes.pdf#page=31">Subtraction</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=31"><span class="sn">3.4</span><span class="st">Understanding Addition and Subtraction of Decimals and Integers</span><span class="pg">p.&nbsp;31</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=31">Addition of Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=31">Subtraction of Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=31">Addition of Integers</a><a href="MATH141-Lecture-Notes.pdf#page=32">Subtraction of Integers</a><a href="MATH141-Lecture-Notes.pdf#page=32">Mental Calculations with Integers</a><a href="MATH141-Lecture-Notes.pdf#page=32">Estimation with Integers</a></div></li>
+        </ol>
+      </section>
+      <section class="chapter">
+        <h2><a href="MATH141-Lecture-Notes.pdf#page=33"><span class="cl">Chapter 4</span> Understanding Multiplication and Division</a></h2>
+        <ol>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=33"><span class="sn">4.1</span><span class="st">Understanding Multiplication of Whole Numbers</span><span class="pg">p.&nbsp;33</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=33">Models for Multiplication Algorithms</a><a href="MATH141-Lecture-Notes.pdf#page=34">Number Properties</a><a href="MATH141-Lecture-Notes.pdf#page=34">Mental Calculations</a><a href="MATH141-Lecture-Notes.pdf#page=34">Estimation of Products</a><a href="MATH141-Lecture-Notes.pdf#page=35">Exponents</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=35"><span class="sn">4.2</span><span class="st">Understanding Division of Whole Numbers</span><span class="pg">p.&nbsp;35</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=35">Models for Division Algorithms</a><a href="MATH141-Lecture-Notes.pdf#page=36">Division Algorithm Theorem</a><a href="MATH141-Lecture-Notes.pdf#page=36">Mental Calculations</a><a href="MATH141-Lecture-Notes.pdf#page=36">Estimation of Quotients</a><a href="MATH141-Lecture-Notes.pdf#page=36">Factors and Multiples</a><a href="MATH141-Lecture-Notes.pdf#page=37">Models for Factors and Multiples</a><a href="MATH141-Lecture-Notes.pdf#page=37">Divisibility Tests</a><a href="MATH141-Lecture-Notes.pdf#page=38">Prime and Composite Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=38">Prime Number Test</a><a href="MATH141-Lecture-Notes.pdf#page=39">Sieve of Eratosthenes</a><a href="MATH141-Lecture-Notes.pdf#page=39">Prime Factorizations</a><a href="MATH141-Lecture-Notes.pdf#page=40">Factor Trees</a><a href="MATH141-Lecture-Notes.pdf#page=40">Factors of Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=40">Order of Operations</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=40"><span class="sn">4.3</span><span class="st">Understanding Multiplication and Division of Fractions</span><span class="pg">p.&nbsp;40</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=40">Multiplication</a><a href="MATH141-Lecture-Notes.pdf#page=41">Division</a><a href="MATH141-Lecture-Notes.pdf#page=41">Number Properties</a><a href="MATH141-Lecture-Notes.pdf#page=42">Mental Calculations</a><a href="MATH141-Lecture-Notes.pdf#page=42">Estimation</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=42"><span class="sn">4.4</span><span class="st">Understanding Multiplication and Division of Decimals and Integers</span><span class="pg">p.&nbsp;42</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=42">Multiplication of Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=42">Division of Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=43">Order of Operations</a><a href="MATH141-Lecture-Notes.pdf#page=43">Mental Computation</a><a href="MATH141-Lecture-Notes.pdf#page=43">Estimation with Decimals</a><a href="MATH141-Lecture-Notes.pdf#page=43">Multiplication of Integers</a><a href="MATH141-Lecture-Notes.pdf#page=44">Division of Integers</a><a href="MATH141-Lecture-Notes.pdf#page=44">Properties of Integers</a><a href="MATH141-Lecture-Notes.pdf#page=44">Properties of Rational Numbers</a><a href="MATH141-Lecture-Notes.pdf#page=44">Scientific Notation</a></div></li>
+        </ol>
+      </section>
+      <section class="chapter">
+        <h2><a href="MATH141-Lecture-Notes.pdf#page=46"><span class="cl">Chapter 5</span> Proportional Reasoning</a></h2>
+        <ol>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=46"><span class="sn">5.1</span><span class="st">Ratio and Proportion</span><span class="pg">p.&nbsp;46</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=46">Ratios</a><a href="MATH141-Lecture-Notes.pdf#page=46">Proportions</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=47"><span class="sn">5.2</span><span class="st">Percents</span><span class="pg">p.&nbsp;47</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=47">Percent</a><a href="MATH141-Lecture-Notes.pdf#page=47">Calculations with Percents</a><a href="MATH141-Lecture-Notes.pdf#page=47">Mental Calculations with Percents</a><a href="MATH141-Lecture-Notes.pdf#page=48">Estimation with Percents</a></div></li>
+        </ol>
+      </section>
+      <section class="chapter">
+        <h2><a href="MATH141-Lecture-Notes.pdf#page=49"><span class="cl">Chapter 6</span> Algebraic Thinking</a></h2>
+        <ol>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=49"><span class="sn">6.1</span><span class="st">Understanding Patterns, Relations, and Functions</span><span class="pg">p.&nbsp;49</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=49">Finding a Pattern</a><a href="MATH141-Lecture-Notes.pdf#page=49">Patterns in Nature</a><a href="MATH141-Lecture-Notes.pdf#page=49">Number Patterns</a><a href="MATH141-Lecture-Notes.pdf#page=51">Functions</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=51"><span class="sn">6.2</span><span class="st">Representing and Analyzing Mathematical Situations and Structures Using Algebraic Symbols</span><span class="pg">p.&nbsp;51</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=51">Variables and Equations</a><a href="MATH141-Lecture-Notes.pdf#page=52">Solving Equations</a><a href="MATH141-Lecture-Notes.pdf#page=52">Solving Inequalities</a><a href="MATH141-Lecture-Notes.pdf#page=53">Using Algebra as a Problem-Solving Strategy</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=53"><span class="sn">6.3</span><span class="st">Using Mathematical Models to Represent and Understand Quantitative Relationships</span><span class="pg">p.&nbsp;53</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=53">Rectangular Coordinates</a><a href="MATH141-Lecture-Notes.pdf#page=53">Linear Functions and Slope</a></div></li>
+          <li><a class="row" href="MATH141-Lecture-Notes.pdf#page=54"><span class="sn">6.4</span><span class="st">Analyzing Change in Various Contexts</span><span class="pg">p.&nbsp;54</span></a>
+            <div class="chips"><a href="MATH141-Lecture-Notes.pdf#page=54">Nonlinear Functions</a><a href="MATH141-Lecture-Notes.pdf#page=55">Interpreting Graphs</a></div></li>
+        </ol>
+      </section>
+</main>
+<footer>MATH 141 Lecture Notes · Prepared by Ryan Pennell, Ivy Tech Bloomington</footer>
+</body>
+</html>
